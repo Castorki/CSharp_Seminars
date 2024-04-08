@@ -19,6 +19,20 @@
 // }
 
 
+
+
+// Console.Write("Input three-digit number; ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// if (num >= 100 && num <= 999)
+// {
+//     int ed = num % 10;
+//     int sot = num / 100;
+//     System.Console.WriteLine($"Sum of {ed} and {sot} -> {ed + sot}");
+// }
+// else
+// System.Console.WriteLine("Yor input not three-digit number");
+
 // Console.Write("Input N; ");
 // int n = Convert.ToInt32(Console.ReadLine());
 // int start = -n;
@@ -29,14 +43,16 @@
 //     start ++;
 // }
 
-Console.Write("Input three-digit number; ");
-int num = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input N; ");
+int n = Convert.ToInt32(Console.ReadLine());
+int start = 1;
 
-if (num >= 100 && num <= 999)
+while (start <= n)
 {
-    int ed = num % 10;
-    int sot = num / 100;
-    System.Console.WriteLine($"Sum of {ed} and {sot} -> {ed + sot}");
+    if (start % 2 == 0)
+
+        System.Console.Write(start + " ");
+        start ++;
+
+    
 }
-else
-System.Console.WriteLine("Yor input not three-digit number");
