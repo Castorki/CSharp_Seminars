@@ -9,6 +9,12 @@
 //     return num * num;
 // }
 
+// System.Console.WriteLine("Input number: ");
+// int a = Conver.ToInt32(Console.ReadLine());
+
+// NumToQuad(a);
+// int result = NumToQuadInt(a);
+
 // System.Console.WriteLine("Input number; ");
 // int a = Convert.ToInt32(Console.ReadLine());
 // System.Console.WriteLine(NumToqUAD(a));
@@ -113,7 +119,7 @@
 //         return result;
 //     }
 //    else
-//    {
+// //    {
 //     System.Console.WriteLine("Yor input not three-digit number");
 //     return 0;
 //    }
