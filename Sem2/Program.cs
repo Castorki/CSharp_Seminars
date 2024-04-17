@@ -74,7 +74,7 @@
 //    }
 
 // }
-
+c
 // Console.Write("Input three-digit number: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 
